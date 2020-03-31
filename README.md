@@ -58,5 +58,5 @@ JSON format of 34 Provinces of Indonesia
 	>			 description: "Nama Provinsi"
 3. Enjoy
 
-![Sample](link-to-image)
+![Sample With Random Data](https://raw.githubusercontent.com/arsofyan7/Indonesia-GeoJSON/master/Kibana%20SS.png)
 
