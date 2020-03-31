@@ -46,4 +46,17 @@ JSON format of 34 Provinces of Indonesia
 |Indonesia	|Sulawesi Tengah	  | 72	 |MultiPolygon|
 
 ## Install in Kibana - ELK stack (sample of use)
-...
+1. Edit 'kibana.yml' in '/etc/kibana/kibana.yml'
+2. add this sample configuration - (Reference from **https://www.elastic.co/guide/en/kibana/current/settings.html**)
+	>map.regionmap:
+	>    layers:
+	> 	  - name: "Indonesian Provinces"
+	> 		url: "https://raw.githubusercontent.com/arsofyan7/Indonesia-GeoJSON/master/indonesia-province.geojson"
+	> 		attribution: "testes"
+	>		fields:
+	>		   - name: "NAME_1"
+	>			 description: "Nama Provinsi"
+3. Enjoy
+
+![Sample](link-to-image)
+
